@@ -259,3 +259,33 @@ img {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 20px 4%; /* Ajuste del padding en pantallas más pequeñas */
+    }
+
+    img {
+        margin-right: 15px;
+        height: 12vw; /* Ajuste del tamaño de la imagen en pantallas más pequeñas */
+    }
+
+    .navigation .btnLogin-popup {
+        margin-top: 20px;
+
+    }
+    
+    .navigation a {
+        margin-right: 20px;
+        margin-left: 2.9vw; /* Ajuste del margen en pantallas más pequeñas */
+    }
+
+    .wrapper {
+        width: 95%; /* Ajuste del ancho del contenedor en pantallas más pequeñas */
+        height: 49vh; /* Ajuste de la altura del contenedor en pantallas más pequeñas */
+    }
+
+    .wrapper .form-box {
+        padding: 5vw; /* Ajuste del padding en pantallas más pequeñas */
+    }
+}
