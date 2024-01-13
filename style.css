@@ -24,7 +24,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;    
-    width: 100%;
+    min-width: 100%;
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -33,9 +33,10 @@ header {
 }
 
 img {
-    height: 62px;
+    height: 55px;
     user-select: none;
 }
+
 
 .navigation a {
     position: relative;
@@ -283,13 +284,14 @@ img {
 
     }
     
-    .navigation a {
-        margin-right: 60px;
-        margin-left: 5vw; 
+    .navigation a { 
+        margin: 10px;
+        font-size: 14px;
     }
 
 
     .wrapper {
+        position: fixed;
         margin-top: 35px; 
         font-size: 14px; 
         width: 99%;
