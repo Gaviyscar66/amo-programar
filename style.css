@@ -261,249 +261,22 @@ img {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px) {
-    header {
-        padding: 20px 4%;
-    }
-
-    img {
-        margin-right: 15px;
-        height: 12vw; 
-    }
-
-    .navigation .btnLogin-popup {
-        margin-top: 20px;
-
-    }
-    
-    .navigation a {
-        margin-right: 20px;
-        margin-left: 2.9vw; 
-    }
-
-    .wrapper {
-        width: 95%; 
-        height: 49vh; 
-    }
-
-    .wrapper .form-box {
-        padding: 5vw; 
-    }
-}
-
-@media only screen and (max-width: 390px) and (max-height: 844px) {
-    header {
-        padding: 20px 4%;
-    }
-
-    img {
-        margin-right: 20px;
-        height: 11vw; 
-    }
-
-    .navigation .btnLogin-popup {
-        margin-top: 20px;
-
-    }
-    
-    .navigation a {
-        margin-right: 20px;
-        margin-left: 1vw; 
-    }
-
-    .wrapper {
-        width: 95%;
-        height: 49vh; 
-    }
-
-    .wrapper .form-box {
-        padding: 5vw; 
-    }
-}
-
-@media only screen and (max-width: 400px) and (max-height: 665px) {
+@media only screen and (max-width: 400px) and (min-width: 700px) {
 
     body {
-        margin-top: 60px;
-        font-size: 12px;
-    }
-
-
-    header {
-        padding: 30px 5%; 
-    }
-
-    img {
-        margin-right: 20px;
-        height: 15vw; 
-    }
-
-    .navigation .btnLogin-popup {
-        margin-top: 20px;
-
-    }
-    
-    .navigation a {
-        margin-right: 20px;
-        margin-left: 2vw; 
-    }
-
-    .wrapper {
-        margin-top: 20px; 
-        font-size: 14px; 
-        width: 90%;
-        height: 60vh;
-        margin-bottom: 20px;
-    }
-    
-    .wrapper .form-box {
-        margin-top: 2em;
-        font-size: 15px;
-        width: 95%;
-        height: 100%;
-        margin-bottom: 90px;
-        margin-top: 20vh;
-    }
-
-    .icon-close {
         margin-top: 25px;
-    }
-
-    .wrapper .form-box h2 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-    
-    .login-register p a {
-        margin-bottom: 50px;
-    }
-
-    
-}
-
-
-@media only screen and (max-width: 360px) and (max-height: 740px) {
-     body {
-        margin-top: 40px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
 
     header {
-        padding: 20px 3%; 
+        padding: 15px 5%;
     }
 
-    img {
-        margin-right: 20px;
-        height: 11vw; 
-    }
-
-    .navigation .btnLogin-popup {
-        margin-top: 20px;
-
-    }
-    
-    .navigation a {
-        margin-right: 20px;
-        margin-left: 2vw; 
-    }
-
-    .wrapper {
-        margin-top: 20px; 
-        font-size: 14px; 
-        width: 90%;
-        height: 60vh;
-        margin-bottom: 0px;
-    }
-    
-    .wrapper .form-box {
-        margin-top: 2em;
-        font-size: 15px;
-        width: 95%;
-        height: 100%;
-        margin-bottom: 0;
-    }
-
-    .wrapper .form-box h2 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-
-    .icon-close {
-        margin-top: 1px;
-    }
-    
-    .login-register p a {
-        margin-bottom: 50px;
-    }
-}
-
-@media only screen and (max-width: 375px) and (max-height: 667px) {
-         body {
-        margin-top: 40px;
-        font-size: 12px;
-    }
-
-
-    header {
-        padding: 20px 3%; 
-    }
-
-    img {
-        margin-right: 20px;
-        height: 11vw; 
-    }
-
-    .navigation .btnLogin-popup {
-        margin-top: 20px;
-
-    }
-    
-    .navigation a {
-        margin-right: 20px;
-        margin-left: 2vw; 
-    }
-
-    .wrapper {
-        margin-top: 20px; 
-        font-size: 14px; 
-        width: 90%;
-        height: 60vh;
-        margin-bottom: 0px;
-    }
-    
-    .wrapper .form-box {
-        margin-top: 2em;
-        font-size: 15px;
-        width: 95%;
-        height: 100%;
-        margin-bottom: 0;
-    }
-
-    .wrapper .form-box h2 {
-        font-size: 25px;
-        margin-top: 20px;
-    }
-
-    .icon-close {
-        margin-top: 1px;
-    }
-    
-    .login-register p a {
-        margin-bottom: 50px;
-    }
-}
-
-@media only screen and (max-width: 320px) and (max-height: 658px) {
-
-    body {
-        margin-top: 80px;
-        font-size: 12px;
-    }
-
-
-    header {
-        padding: 30px 5%; 
+    .navigation {
+        display: flex;
+        justify-content: space-around; /* Alinea las opciones horizontalmente */
+        align-items: center; /* Alinea las opciones verticalmente */
     }
 
     img {
@@ -513,46 +286,40 @@ img {
 
     .navigation .btnLogin-popup {
         margin-top: 20px;
+
     }
     
     .navigation a {
-        margin-right: 50px;
-        margin-bottom: 90px;
-        margin-left: 1vw; 
+        margin: 0; /* Elimina los márgenes para que las opciones estén más cercanas */
+        font-size: 0.9em;
     }
 
     .wrapper {
+        display: flex;
+        flex-direction: column;
         margin-top: 20px; 
         font-size: 14px; 
-        width: 95%;
-        height: 65vh;
-        margin-bottom: 20px;
+        width: 90%;
+        height: 46vh;
+        margin-bottom: 90px;
     }
+
     
     .wrapper .form-box {
         margin-top: 2em;
         font-size: 15px;
-        width: 95%;
-        height: 100%;
-        margin-bottom: 90px;
-        margin-top: 20vh;
+        width: 43vh;
+        height: 55vh;
+        margin-bottom: 40px;
+        margin-top: 0vh;
     }
 
-    .icon-close {
-        margin-top: 1px;
-    }
 
     .wrapper .form-box h2 {
         font-size: 25px;
         margin-top: 20px;
     }
 
-    .remember-forgot a {
-        margin-right: -15px;
-    }
-    
-    .login-register p a {
-        margin-bottom: 50px;
-    }
 
 }
+
