@@ -23,7 +23,7 @@ body {
 header {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0;    
     width: 100%;
     padding: 20px 100px;
     display: flex;
@@ -261,22 +261,16 @@ img {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 400px) and (min-width: 700px) {
+@media only screen and (max-width: 500px) and (min-width: 397px) {
 
     body {
-        margin-top: 25px;
-        font-size: 14px;
+        margin-top: 60px;
+        font-size: 12px;
     }
 
 
     header {
-        padding: 15px 5%;
-    }
-
-    .navigation {
-        display: flex;
-        justify-content: space-around; /* Alinea las opciones horizontalmente */
-        align-items: center; /* Alinea las opciones verticalmente */
+        padding: 30px 5%; 
     }
 
     img {
@@ -290,36 +284,40 @@ img {
     }
     
     .navigation a {
-        margin: 0; /* Elimina los márgenes para que las opciones estén más cercanas */
-        font-size: 0.9em;
+        margin-right: 20px;
+        margin-left: 2vw; 
     }
+
 
     .wrapper {
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px; 
+        margin-top: 60px; 
         font-size: 14px; 
         width: 90%;
-        height: 46vh;
-        margin-bottom: 90px;
+        height: 80vh;
+        margin-bottom: 0px;
     }
-
     
     .wrapper .form-box {
         margin-top: 2em;
         font-size: 15px;
-        width: 43vh;
-        height: 55vh;
-        margin-bottom: 40px;
-        margin-top: 0vh;
+        width: 95%;
+        height: 100%;
+        margin-bottom: 0;
     }
-
 
     .wrapper .form-box h2 {
         font-size: 25px;
         margin-top: 20px;
     }
 
-
+    .icon-close {
+        margin-top: 1px;
+    }
+    
+    .login-register p a {
+        margin-bottom: 50px;
+    }
 }
+
+
 
