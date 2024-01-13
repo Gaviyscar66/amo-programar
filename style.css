@@ -261,7 +261,7 @@ img {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 500px) and (min-width: 397px) {
+@media only screen and (max-width: 500px) and (min-width: 300px) {
 
     body {
         margin-top: 60px;
